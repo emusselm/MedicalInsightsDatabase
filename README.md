@@ -8,7 +8,7 @@ of medical data available. In this paper, we present a simple-healthcare databas
 Google Cloud Platform (GCP) using the BigQuery framework to explore the possibilities and privacy issues
 presented to the medical community for data storage and access. Additionally, using the flexibility and power
 of cloud computing, we present a healthcare portal to allow for secure, user-friendly access of sensitive data,
-data visualizations, and medical predictions
+data visualizations, and medical predictions. The portal is created through Google's AppSheet platfrom. 
 
 To run this code, please do the following to set up your environment:
 1. Install a python development environment, such as Anaconda. 
@@ -20,3 +20,5 @@ After the environment is initialized you may run the following code:
 1. schema.sql: this sets up the cardiology database table in MySQL
 2. preprocessing.ipynb: this python notebook preprocesses the heartdisease data, generates fake personal patient and doctor data, and uploads the data to MySQL
 3. MySQLtoBigQuery: this python notebook, after your corresponding information is entered, will upload the contents and schema of the database in MySQL to BigQuery.
+
+The rest of the security and application details are located in AppSheet. Please click the following link for a demo of the application and security: [DEMO](https://drive.google.com/file/d/10-GV9DCA7yi7yUvxaFaiw41HcLpnGVhn/view?usp=share_link)
